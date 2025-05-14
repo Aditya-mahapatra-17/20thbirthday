@@ -4,20 +4,20 @@ import PhotoGallery from '@/components/PhotoGallery';
 
 const photos = [
   {
-    src: "public/images/1.jpeg",
+    src: "src/images/1.jpeg",
     alt: "Can we get extra rice",
     caption: "That time we couldn't stop laughing at the Hotel(Biryani haha)"
   },
 
   {
-    src: "public/images/2.jpg",
+    src: "src/images/2.jpg",
     alt: "Beach day",
     caption: "Beach day when we ate twisted potatos and you lost stone paper sissors.haha"
   },
   
  
   {
-    src: "public/images/3.jpg",
+    src: "src/images/3.jpg",
     alt: "K9 Restaurant",
     caption: "Remember the K9 restaurant?"
   }
