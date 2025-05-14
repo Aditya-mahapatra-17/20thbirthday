@@ -63,7 +63,7 @@ const Wishes = () => {
                 Here's to you on your birthday, and to every day forward. May you be blessed with everything that brings you joy.
               </p>
               <p className="mb-1">
-                You're not just my best friend, you're the sister I got to choose. Thank you for all the beautiful memories we've created, and here's to many more years of friendship and adventure ahead.
+                You're not just my best friend. Thank you for all the beautiful memories we've created, and here's to many more years of friendship and adventure ahead.
               </p>
               <p className="font-medium mt-4">
                 Happy Birthday!
