@@ -1,6 +1,7 @@
 
 import Header from '@/components/Header';
 import SpecialCard from '@/components/SpecialCard';
+import { Heart } from 'lucide-react';
 
 const letters = [
   {
@@ -27,22 +28,28 @@ const letters = [
 
 const Letters = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-birthday-yellow/30 to-white">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-birthday-pink/5 to-white">
       <Header title="Special Letters" />
       
-      <div className="flex-1 container mx-auto px-4 py-6">
-        <div className="max-w-3xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold font-cursive text-birthday-pink text-center mb-8">
-            Letters From The Heart
-          </h1>
+      <div className="flex-1 container mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h1 className="text-3xl md:text-5xl font-bold font-cursive text-birthday-pink mb-4 animate-float">
+              Letters From The Heart
+              <Heart className="inline-block ml-2 text-birthday-pink animate-pulse" />
+            </h1>
+            
+            <div className="bg-white/80 backdrop-blur-sm p-4 rounded-xl shadow-md max-w-2xl mx-auto">
+              <p className="text-base md:text-lg mb-2">
+                Some words I've wanted to share with you. Each card holds a special message inside.
+              </p>
+              <p className="text-sm text-muted-foreground">
+                (Click "Read More" to see more, and look for secret messages too!)
+              </p>
+            </div>
+          </div>
           
-          <p className="text-center mb-8">
-            Some words I've wanted to share with you. Each card has a special message inside.
-            <br />
-            <span className="text-sm text-muted-foreground">(Click "Read More" to see more, and look for secret messages too!)</span>
-          </p>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {letters.map((letter, index) => (
               <SpecialCard 
                 key={index}
@@ -54,17 +61,21 @@ const Letters = () => {
             ))}
           </div>
           
-          <div className="mt-12 text-center bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow">
-            <h2 className="text-2xl font-cursive text-birthday-purple mb-4">A Final Note</h2>
-            <p className="text-lg">
+          <div className="mt-16 text-center bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md border border-birthday-pink/20">
+            <h2 className="text-3xl font-cursive text-birthday-purple mb-4">A Final Note</h2>
+            <p className="text-lg max-w-xl mx-auto">
               Thank you for being you. For your kindness, your humor, your honesty, and your love.
+              You make every day brighter just by being in my life.
             </p>
-            <p className="mt-4 font-medium">
+            <p className="mt-6 font-medium text-birthday-purple/80">
               With all my love on your special day,
             </p>
-            <p className="mt-2 font-cursive text-xl text-birthday-pink">
+            <p className="mt-2 font-cursive text-2xl text-birthday-pink">
               Your Best Friend
             </p>
+            <div className="mt-4 text-center">
+              <Heart className="inline-block text-birthday-pink animate-pulse h-6 w-6" />
+            </div>
           </div>
         </div>
       </div>
