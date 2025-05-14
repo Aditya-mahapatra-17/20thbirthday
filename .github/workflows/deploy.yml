@@ -32,10 +32,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
+      - name: List files in dist folder
+        run: ls -l ./dist  # Debug step to list the files in dist
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'  # Ensure the path is correct for your build output
+          path: './dist'  # Ensure this path points to your build output directory
 
   deploy:
     environment:
