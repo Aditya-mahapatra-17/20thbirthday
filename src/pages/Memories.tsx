@@ -1,23 +1,26 @@
 
 import Header from '@/components/Header';
 import PhotoGallery from '@/components/PhotoGallery';
+import image1 from '@/images/1.jpeg';
+import image2 from '@/images/2.jpg';
+import image3 from '@/images/3.jpg';
 
 const photos = [
   {
-    src: "src/images/1.jpeg",
+    src: image1,
     alt: "Can we get extra rice",
     caption: "That time we couldn't stop laughing at the Hotel(Biryani haha)"
   },
 
   {
-    src: "src/images/2.jpg",
+    src: image2,
     alt: "Beach day",
     caption: "Beach day when we ate twisted potatos and you lost stone paper sissors.haha"
   },
   
  
   {
-    src: "src/images/3.jpg",
+    src: image3,
     alt: "K9 Restaurant",
     caption: "Remember the K9 restaurant?"
   }
