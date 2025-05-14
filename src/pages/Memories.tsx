@@ -4,34 +4,22 @@ import PhotoGallery from '@/components/PhotoGallery';
 
 const photos = [
   {
-    src: "https://images.unsplash.com/photo-1522673607200-164d1b3ce551",
-    alt: "Friends taking a selfie",
-    caption: "That time we couldn't stop laughing at the cafe"
+    src: "public/images/1.jpeg",
+    alt: "Can we get extra rice",
+    caption: "That time we couldn't stop laughing at the Hotel(Biryani haha)"
   },
+
   {
-    src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac",
-    alt: "Friends walking together",
-    caption: "Our adventure in the city last summer"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+    src: "public/images/2.jpg",
     alt: "Beach day",
-    caption: "Beach day when we built that crazy sandcastle"
+    caption: "Beach day when we ate twisted potatos and you lost stone paper sissors.haha"
   },
+  
+ 
   {
-    src: "https://images.unsplash.com/photo-1543807535-eceef0bc6599",
-    alt: "Birthday celebration",
-    caption: "Your birthday last year - so many candles!"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1528495612343-9ca9f4a9f67c",
-    alt: "Road trip",
-    caption: "That spontaneous road trip we took"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1542157565-4607d902f5d6",
-    alt: "Concert night",
-    caption: "Remember that amazing concert night?"
+    src: "public/images/3.jpg",
+    alt: "K9 Restaurant",
+    caption: "Remember the K9 restaurant?"
   }
 ];
 

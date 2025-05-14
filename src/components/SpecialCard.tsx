@@ -61,7 +61,7 @@ const SpecialCard = ({ title, content, secretContent, className }: SpecialCardPr
             {secretContent && !showSecret ? (
               <div className="flex flex-col items-center gap-4 py-4">
                 <div className="text-center">
-                  <p className="text-sm text-birthday-pink mb-2 font-medium">There's a secret message waiting for you...</p>
+                  <p className="text-sm text-birthday-pink mb-2 font-medium">There's a secret message waiting for you...Ponnu</p>
                   <p className="text-xs text-muted-foreground">Click below to reveal it</p>
                 </div>
                 <Button 

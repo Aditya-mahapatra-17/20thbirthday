@@ -80,7 +80,7 @@ const Surprise = () => {
               </div>
               
               <div className="mt-12 p-6 bg-white/80 backdrop-blur-sm rounded-xl shadow">
-                <h3 className="text-xl font-medium mb-4">P.S. A Final Birthday Message</h3>
+                <h3 className="text-xl font-medium mb-4">A Final Birthday Message</h3>
                 <p className="mb-4">
                   I wanted to take one more moment to tell you how special you are to me.
                   Our friendship means everything, and I'm so grateful for every moment we share.

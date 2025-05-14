@@ -66,7 +66,7 @@ const Wishes = () => {
                 You're not just my best friend. Thank you for all the beautiful memories we've created, and here's to many more years of friendship and adventure ahead.
               </p>
               <p className="font-medium mt-4">
-                Happy Birthday!
+                Happy Birthday ponnu!
               </p>
             </Card>
           </div>
