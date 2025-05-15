@@ -22,7 +22,7 @@ const photos = [
   {
     src: image3,
     alt: "K9 Restaurant",
-    caption: "Remember the K9 restaurant?"
+    caption: "Remember the K9 restaurant? and we drink falooda like pan masala funny!!"
   }
 ];
 
